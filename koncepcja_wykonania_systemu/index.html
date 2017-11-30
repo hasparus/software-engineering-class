@@ -1,174 +1,8 @@
 <html lang="en-US" class="">
   <head>
-    <title>Requirement Specification</title>
+    <title>System Development Concept</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <style>
-      @import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Source+Sans+Pro:400,700');
-      :root {
-        --color-red: #d32934;
-        --color-gold: #F3DA58;
-        --color-darkGreen: #325744;
-        --color-green: #00895E;
-      }
-      *::selection {
-        background: rgba(0, 137, 94, 0.829);
-        color: white;
-      }
-      body {
-        font-size: 17px;
-        font-family: 'Source Sans Pro', sans-serif;
-      }
-      h1 {
-        word-spacing: 0.25em;
-        font-family: 'Gochi Hand', cursive;
-        font-weight: normal;
-      }
-      .centerer {
-        display: flex;
-        justify-content: center;
-        flex-direction: column-reverse;
-        align-items: center;
-        height: 100%;
-      }
-      .right-corner {
-        position: fixed;
-        right: 0;
-        top: 0;
-        padding: 1em;
-      }
-      main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 100%;
-        width: 70%;
-        padding-left: 16%;
-        padding-right: 14%;
-      }
-      main > h1 {
-        font-size: 2.4em;
-        margin-bottom: 0;
-        margin-top: 0.95rem;
-        color: var(--color-red)
-      }
-      main > section {
-        width: 100%;
-      }
-      main > section > h1 {
-        font-size: 2em;
-        text-align: center;
-      }
-      em {
-        font-style: inherit;
-        font-weight: bold;
-        color: var(--color-red);
-      }
-      
-      .malachite > article {
-        background: linear-gradient(
-          to top right,
-          var(--color-green),
-          var(--color-darkGreen)
-        );
-      }
-      .malachite > h1 {
-        color: var(--color-green)
-      }
-      .sunset > article {
-        background: linear-gradient(
-          to top right,
-          var(--color-gold),
-          var(--color-red)
-        );
-      }
-      .sunset > h1 {
-        color: var(--color-red)
-      }
-
-      #icon {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-      }
-      #icon svg {
-        fill: white;
-        width: 40px;
-        height: 40px;
-        transform: translate3d(-2px, 4px, 0);
-      }
-
-      .hidden {
-        display: none;
-      }
-      .step {
-        font-weight: bold;
-      }
-      .step.dimmed {
-        /*color: #444; */
-        font-weight: normal; 
-      }
-      @media print {
-        .hidden {
-          display: initial;
-        }  
-        .dimmed {
-          color: inherit;
-        }
-        .step {
-          font-weight: normal;
-        }
-        main {
-          width: 80%;
-          padding-left: 10%;
-          padding-right: 10%;
-        }
-        main > section {
-          page-break-before: always;
-        }
-        .map {
-          display: none !important;
-        }
-      }
-
-      .map {
-        display: flex;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        margin: 1em;
-        margin-bottom: 1.6em;
-      }
-      .map > .column {
-        height: 100%;
-        padding-left: 0.3em;
-        padding-right: 0.3em;
-      }
-      .map > .column > .dot {
-        border-radius: 50%;
-        width: 12px;
-        height: 12px;
-        margin-top: 0.3em;
-        background: linear-gradient(
-          to top right,
-          #ccc,
-          #eee
-        );
-      }
-      .map > .column > .dot.current-step {
-        background: linear-gradient(
-          to top right,
-          #bbb,
-          #ddd
-        );
-      }
-      .map > .column > .dot.active {
-        background: linear-gradient(
-          to top right,
-          var(--color-gold),
-          var(--color-red)
-        );
-      }
-    </style>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="right-corner">
@@ -192,93 +26,164 @@
       </section>
     </div>
     <main>
-      <h1>Requirement Specification</h1>
+      <h1>System Development Concept</h1>
       <section>
-        <h1>User Types</h1>
+        <h1>Representative Use Cases</h1>
         <p>
-          There are two types of end users and only the obvious maintainer roles (sales, devops and development).
+          We have found use cases 3, 5.1 and 5.2 the most unique for our application. We will focus on them in this chapter. Following use cases will be written in Fowler style.
         </p>
-        <ul>
-          <li>
-            Runner 
-            <span class="step"> – uses the app to make his sport time social.</span>
-          </li>
-          <li>
-            Analyst
-            <span class="step"> – crunches data gathered by the app.</span>
-          </li>
-        </ul>
       </section>
       <section>
-        <h1>External Systems</h1>
+        <h1>Representative Use Cases</h1>
         <p>
-          We'll use following external systems:
+          We have found use cases 3, 5.1 and 5.2 the most unique for our application. We will focus on them in this chapter. Following use cases will be written in Fowler style.
         </p>
-        <ul>
-          <li class="step">
-            Autoscaling cloud backend (AWS or GCloud) for APIs and app updates.
-          </li>
-          <li class="step">
-            Mobile application stores (App Store, Google Play Store) distributing the base product.
-          </li>
-        </ul>
       </section>
       <section>
-        <h1>Characteristics (Non-functional Requirements)</h1>
-        <p>
-          What qualities that the solution must have and in within which constraints must it operate to be effective?
-        </p>
-        <ul>
-          <li>
-            Safety
-            <span class="step"> – Dangers related to application usage must not be greater than dangers related to using Tinder or Pokemon Go.</span>
-          </li>
-          <li>
-            Legality
-            <span class="step"> – All data to be stored or sold must be anonymized. Solution must accord to <a href="https://www.wikiwand.com/en/Information_privacy_law">information privacy laws</a>. Therefore data is preferred to be stored in USA.</span>
-          </li>
-          <li>
-            Availability
-            <span class="step"> – The solution must be operational 24/7.</span>
-          </li>
-          <li>
-            Scalability
-            <span class="step"> – The base solution (Buddy for Runners) must be able to scale itself autonomously. The data vendoring system is considered secondary and can lag behind.</span>
-          </li>
-          <li>
-            Testability and maintainability
-            <span class="step"> – Code and infrastructure has to keep the highest standards.</span>
-          </li>
-          <li>
-            Approachability for end user
-            <span class="step"> – The application has to be intuitive and easy to get into.</span>
-          </li>
-        </ul>
+        <h1>Representative Use Cases: 3: Run planning</h1>
+        <dl>
+          <dt>Title:</dt>
+          <dd><em>Runner</em> plans future run.</dd>
+          <div>
+            <dt>Main Success Scenario:</dt>
+            <div>
+              <dd class="use-case">
+                <p>
+                  User can go back and forward between steps 1 and 3 at any time.
+                  Order [3, 4, 1, 2] is possible.
+                </p>
+                <ol>
+                  <li class="step take-space">1. Runner draws a route aligned to the paths on the map.</li>
+                  <li class="step take-space">2. System computes characteristics for the run and presents them to the user.</li>
+                  <li class="step take-space">3. Runner selects the time for the run.</li>
+                  <li class="step take-space">4. System checks weather and creates the run.</li>
+                </ol>
+              </dd>
+            </div>
+          </div>
+          <div>
+            <dt class="step take-space">Bad Weather — Extension 4a:</dt>
+            <div>
+              <dd class="use-case">
+                <ol start="4">
+                  <li class="step take-space">
+                    4a. System checks the weather and notifies the runner about suboptimal weather conditions.
+                  </li>
+                  <div class="step take-space" style="font-weight: normal !important">
+                    <li>
+                      5. Runner resigns and exits the planning mode.
+                    </li>
+                    <li>
+                      5a. Runner goes back to time selection (step 3).
+                    </li>
+                    <li>
+                      5b. Runner decides he's all right with bad weather and confirms the run.
+                    </li>  
+                  </div>
+                </ol>
+              </dd>
+            </div>
+          </div>
+        </dl>
       </section>
       <section>
-        <h1>Capabilities (Functional Requirements)</h1>
-        <p>
-          The solution does:
-        </p>
-        <ol>
-          <li class="step">Track <em>runners</em> and gather their characteristics.</li>
-          <li class="step">Allow <em>runners</em> to draw routes and plan their <em>runs</em>.</li>
-          <li class="step">Match <em>runners</em> with each other using location and their profiles
-            <ol>
-              <li>
-                Match strangers to <em>talks</em> where they can conversate about a new <em>run</em> suggested to them by Buddy.
-              </li>
-              <li>
-                Allow <em>runner</em> to see his Facebook friends on the map and join them.
-              </li>
-              <li>
-                Allow <em>runner</em> to see his friends public statistics.
-              </li>
-            </ol>
-          </li>
-          <li class="step">Allow <em>runner</em> to mark his friends as observed to be notified about their improvements.</li>
-          <li class="step">Vendor anonymized data to corporate customers.</li>
-        </ol>
+        <h1>Wireframes for Use Case 3</h1>
+        <article style="display: flex; flex-direction: row; width: 100%; flex-flow: row nowrap; align-items: center;">
+          <img src="./assets/foo6.png" style="width: 33%; height: auto;">
+          <img src="./assets/foo4.png" style="width: 33%; height: auto;">
+          <img src="./assets/foo2.png" style="width: 33%; height: auto;">
+        </article>
+      </section>
+      <section>
+        <h1>Representative Use Cases: 5.1: Chat a run</h1>
+        <dl>
+          <dt>Title:</dt>
+          <dd>Strangers are matched for a run.</dd>
+          <div>
+            <dt>Main Success Scenario:</dt>
+            <div>
+              <dd class="use-case">
+                <ol>
+                  <li class="step take-space">
+                    1. System matches <em>Runners</em> based on their stats, time intersections and run history.
+                  </li>
+                  <li class="step take-space">
+                    2. Proposed Route is computed.
+                  </li>
+                  <li class="step take-space">
+                    3. System invites <em>Runners</em> for a conversation. Runners see an anonymized conversation and average stats.
+                  </li>
+                  <li class="step take-space">
+                    4. <em>Runner</em> decides to join.
+                  </li>
+                  <div class="step take-space">
+                    <p style="margin-bottom: 0;">Simultaneously</p>
+                    <li>
+                      5. Runners propose edits for the Route.
+                    </li>
+                    <li>
+                      6. Runners chat about the run, using keywords (like "Hey buddy") and shortcut menu to interact with the system.
+                    </li>
+                  </div>
+                  <li class="step take-space">
+                    7. After more than half of the Runners decide (<i>RUN</i> or <i>PASS</i>) timeout is added to the Chat. When all decide or time is out the Run in the future is created.
+                  </li>
+                </ol>
+              </dd>
+            </div>
+          </div>
+          <div>
+            <dt class="step take-space">Not in mood for a talk — Extension 4a:</dt>
+            <div>
+              <dd class="use-case">
+                <ol start="4">
+                  <li class="step take-space">
+                    4a. <em>Runner</em> leaves the chat.
+                  </li>
+                </ol>
+              </dd>
+            </div>
+          </div>
+        </dl>
+      </section>
+      <section>
+        <h1>Wireframes for Use Case 5.1</h1>
+        <article style="display: flex; flex-direction: row; width: 100%; flex-flow: row nowrap; align-items: center;">
+          <img src="./assets/foo5.png" style="width: 33%; height: auto;">
+          <img src="./assets/foo3.png" style="width: 33%; height: auto;">
+          <img src="./assets/foo1.png" style="width: 33%; height: auto;">
+        </article>
+      </section>
+      <section>
+        <h1>Representative Use Cases: 5.2: Join a friend</h1>
+        <dl>
+          <dt>Title:</dt>
+          <dd>Runner joins a friend.</dd>
+          <div>
+            <dt>Main Success Scenario:</dt>
+            <div>
+              <dd class="use-case">
+                <ol>
+                  <li class="step take-space">
+                    1. <em>Runner</em> sees his friends on the map.
+                  </li>
+                  <li class="step take-space">
+                    2. <em>Runner</em> decides to join.
+                  </li>
+                  <li class="step take-space">
+                    3. The <em>Runner</em> other gets a notification.
+                  </li>
+                </ol>
+              </dd>
+            </div>
+          </div>
+        </dl>
+      </section>
+      <section>
+        <h1>Wireframes for Use Case 5.2</h1>
+        <article style="display: flex; flex-direction: row; width: 100%; flex-flow: row nowrap; align-items: center;">
+          <img src="./assets/Friends_on_map.png" style="width: auto; max-height: 500px;">
+        </article>
       </section>
     </main>
     <article class="map"></article>
