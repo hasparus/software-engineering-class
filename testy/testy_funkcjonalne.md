@@ -171,3 +171,7 @@ Kroki wykonania:
 1. Klikam opcję **see the map**.
 2. Widzę, że nikt z moich znajomych nie biega akurat w tym czasie.
 3. Mam możliwość przejścia do poprzedniej strony.
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNTAzMjY5NjYyXX0=
+-->
