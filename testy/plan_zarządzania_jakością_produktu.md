@@ -14,7 +14,7 @@ Aby zapewnić jak najwyższą jakość oprogramowania zamierzamy uwzględnić na
 * Zablokowany master. Merge możliwy jedynie poprzez **pull request**.
 * Aby **pull request** został zmergowany, muszą zostać spełnione następujące warunki:
 	* Akceptacja przez współpracowników poprzez Code Review.
-	* Udany build na CircleCI (testy automatyczne i styleg
+	* Udany build na CircleCI (testy automatyczne i styleguide)
 
 ```mermaid
 graph LR;
@@ -22,5 +22,5 @@ graph LR;
 	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwOTEzNDk4OV19
+eyJoaXN0b3J5IjpbLTE0OTQwMDM0M119
 -->
