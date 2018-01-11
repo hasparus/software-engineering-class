@@ -11,7 +11,7 @@ Aby zapewnić jak najwyższą jakość oprogramowania zamierzamy uwzględnić na
 
 ## Przepływ pracy z kontrolą wersji
 
-* Zablokowany master. Merg
+* Zablokowany master. Merge możliwy jedynie przez 
 
 ```mermaid
 graph LR;
@@ -19,5 +19,5 @@ graph LR;
 	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzc4ODkyOTldfQ==
+eyJoaXN0b3J5IjpbLTExMzYxMTQ2MTZdfQ==
 -->
