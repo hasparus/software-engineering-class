@@ -20,10 +20,11 @@ Aby zapewnić jak najwyższą jakość oprogramowania zamierzamy uwzględnić na
 graph LR;
 	d#1[development]-->feature/cool-stuff;
 	d#1[development]-->feature/pretty-ui;
-	pretty-feature-branch--finish feature-->d#2[development];
+	feature/pretty-ui--finish feature-->d#2[development];
+	d#1[development]-->hotfix/boss-cant-login;
 	
 	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAwNjgyNTIyXX0=
+eyJoaXN0b3J5IjpbLTg0ODA0NDY4M119
 -->
