@@ -139,3 +139,7 @@ Okres beta testowania powinien przynieść wiele danych pomocnych w stworzeniu p
 * Raport o błędach występujących w oprogramowaniu
 * Posumowanie sugestii dotyczących aplikacji
 * Raport podsumowujący cały projekt
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwODg3OTQwMjNdfQ==
+-->
