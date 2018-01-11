@@ -28,8 +28,9 @@ graph LR;
 	d#2[development]-->fix/cant-login;
 	feature/cool-stuff--finish feature-->d#4[development];
 	
-	style [development] fill: pink
+	classDef dev fill: pink;
+	class d#1d#2,d#3,d#4 dev;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MzEzNzM0Nl19
+eyJoaXN0b3J5IjpbLTk4ODQ2ODE3N119
 -->
