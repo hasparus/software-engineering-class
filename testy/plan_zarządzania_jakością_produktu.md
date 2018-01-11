@@ -12,8 +12,9 @@ Aby zapewnić jak najwyższą jakość oprogramowania zamierzamy uwzględnić na
 ## Przepływ pracy z kontrolą wersji
 
 ```mermaid
-	
+graph TD:
+			
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjMwNjE4Nl19
+eyJoaXN0b3J5IjpbMjAyNTkwNDg4XX0=
 -->
