@@ -26,8 +26,10 @@ graph LR;
 	d#3[development]--merge fixes downstream-->feature/cool-stuff;
 	fix/cant-login-->d#3[development]
 	d#2[development]-->fix/cant-login;
-	feature/cool-stuff--finish feature-->d#4[development];	
+	feature/cool-stuff--finish feature-->d#4[development];
+	
+	style [development] fill: pink
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk4MTE1MTIxXX0=
+eyJoaXN0b3J5IjpbLTk3MzEzNzM0Nl19
 -->
