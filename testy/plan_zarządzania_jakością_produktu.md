@@ -28,10 +28,11 @@ graph LR;
 	d#2[development]-->fix/cant-login;
 	feature/cool-stuff--finish feature-->d#4[development];
 	
-	style d#1, d#2 fill: pink
-	classDef dev fill: pink
-	class d#1, d#2, d#3, d#4 dev
+	nodeId1;		
+	
+	classDef className fill:#f9f,stroke:#333,stroke-width:4px;
+    class nodeId1 className;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjczODgzMTg2XX0=
+eyJoaXN0b3J5IjpbLTE1ODc2OTExODVdfQ==
 -->
