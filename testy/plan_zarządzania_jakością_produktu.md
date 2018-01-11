@@ -11,11 +11,13 @@ Aby zapewnić jak najwyższą jakość oprogramowania zamierzamy uwzględnić na
 
 ## Przepływ pracy z kontrolą wersji
 
+* Zablokowany master. Merg
+
 ```mermaid
-graph TD;
-	master-->feature_branch: ;
+graph LR;
+	master--start feature-->feature-branch;
 	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzI3OTk5OV19
+eyJoaXN0b3J5IjpbLTE0Mzc4ODkyOTldfQ==
 -->
