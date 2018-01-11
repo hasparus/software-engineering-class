@@ -30,8 +30,8 @@ graph LR;
 	
 	style d#1 fill: moccasin; 	style d#2 fill: moccasin;
 	style d#3 fill: moccasin; 	style d#4 fill: moccasin;
-	style fix/cant-login fill: seashell;
+	style fix/cant-login fill: snow;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODAwNzY5MV19
+eyJoaXN0b3J5IjpbLTE5MjE4OTA4MDddfQ==
 -->
