@@ -22,11 +22,9 @@ graph LR;
 	d#1[development]-->feature/pretty-ui;
 	feature/pretty-ui--finish feature-->d#2[development];
 	d#3[development]--merge fixes downstream-->feature/cool-stuff;
-	d#2[development]-->hotfix/boss-cant-login;
-	hotfix/boss-cant-login-->d#3[development]
-	fix/cant-login-->d#3[development]	
-	feature/cool-stuff--merge fixes downstream-->d#4[development];	
+	d#2[development]-->fix/boss-cant-login;
+	feature/cool-stuff--finish feature-->d#4[development];	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDUwMTU0NDRdfQ==
+eyJoaXN0b3J5IjpbLTEzODg2NDgwMjJdfQ==
 -->
