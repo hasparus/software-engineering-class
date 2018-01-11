@@ -20,7 +20,8 @@ Aby zapewnić jak najwyższą jakość oprogramowania zamierzamy uwzględnić na
 graph LR;
 	development--start feature-->feature-branch;
 	
+	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDc3NzE4Nl19
+eyJoaXN0b3J5IjpbODg2NTE2NjIwXX0=
 -->
