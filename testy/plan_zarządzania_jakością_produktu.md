@@ -9,7 +9,7 @@ Aby zapewnić jak najwyższą jakość oprogramowania zamierzamy uwzględnić na
 * Sentry - platforma do monitorowania błędów pochodzących ze wszystkich naszych serwisów
 * Prometheus + Grafana - w celu wizualizacji i analizy danych oraz zapytań do bazy danych
 * Testy automatyczne
-* 
+* Testy funkcjonalne
 
 ## Przepływ pracy z kontrolą wersji
 
@@ -29,5 +29,5 @@ graph LR;
 	feature/cool-stuff--finish feature-->d#4[development];	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzMDI5ODI4XX0=
+eyJoaXN0b3J5IjpbOTk4MTE1MTIxXX0=
 -->
