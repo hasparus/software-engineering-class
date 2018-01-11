@@ -21,11 +21,11 @@ graph LR;
 	d#1[development]-->feature/cool-stuff;
 	d#1[development]-->feature/pretty-ui;
 	feature/pretty-ui--finish feature-->d#2[development];
-	feature/cool-stuff--finish feature-->d#3[development];
+	d#3[development]--merge fixes down-->feature/cool-stuff;
 	d#2[development]-->hotfix/boss-cant-login;
 	hotfix/boss-cant-login-->d#3[development]	
 	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTE1NzE5OF19
+eyJoaXN0b3J5IjpbLTE4MTA2Mzc1ODRdfQ==
 -->
