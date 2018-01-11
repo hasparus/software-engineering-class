@@ -29,3 +29,7 @@ Wpływ _(1-5)_: 4
 Priorytet _(1-5)_: 1
 
 Rozwiązanie: Lepsza analiza danych, dawanie użytkownikom większego wyboru, sugestie zachęcające do rozmowy z potencjalnymi partnerami biegowymi przed treningiem.
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjc1OTMzMDkxXX0=
+-->
