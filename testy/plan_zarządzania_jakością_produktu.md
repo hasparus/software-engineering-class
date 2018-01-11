@@ -30,8 +30,8 @@ graph LR;
 	
 	style d#1 fill: moccasin; 	style d#2 fill: moccasin;
 	style d#3 fill: moccasin; 	style d#4 fill: moccasin;
-	style fix/cant-login fill: lightpink, color: white;
+	style fix/cant-login fill: lightpink;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQxODkwODZdfQ==
+eyJoaXN0b3J5IjpbLTE4MzY0MDg5MzhdfQ==
 -->
