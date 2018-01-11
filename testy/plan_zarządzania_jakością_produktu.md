@@ -11,10 +11,10 @@ Aby zapewnić jak najwyższą jakość oprogramowania zamierzamy uwzględnić na
 
 ## Przepływ pracy z kontrolą wersji
 
-* Zablokowany master. Merge możliwy jedynie poprzez **pull request**.
+* Zablokowany branch główny (development). Merge możliwy jedynie poprzez **pull request**.
 * Aby **pull request** został zmergowany, muszą zostać spełnione następujące warunki:
 	* Akceptacja przez współpracowników poprzez Code Review.
-	* Udany build na CircleCI (testy automatyczne i styleguide).
+	* Udany build na CircleCI (kompilacja, testy automatyczne i styleguide).
 
 ```mermaid
 graph LR;
@@ -22,5 +22,5 @@ graph LR;
 	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTI3OTk1NV19
+eyJoaXN0b3J5IjpbMTIzNDc3NzE4Nl19
 -->
