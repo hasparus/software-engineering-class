@@ -23,3 +23,7 @@ Clean code, etc.
 ## Dostępność dla użytkownika
 
 Zatrudniając wyspecjalizowanych UX designerów zamierzamy osiągnąć to, aby nasza aplikacja była jak najbardziej przejrzysta i łatwa do przyswojenia dla użytkownika.
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODA5MjUzODExXX0=
+-->
