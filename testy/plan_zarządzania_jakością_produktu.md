@@ -14,6 +14,7 @@ Aby zapewnić jak najwyższą jakość oprogramowania zamierzamy uwzględnić na
 * Zablokowany master. Merge możliwy jedynie poprzez **pull request**.
 * Aby **pull request** został zmergowany, muszą zostać spełnione następujące warunki:
 	* Akceptacja przez współpracowników poprzez Code Review.
+	* Testy  
 
 ```mermaid
 graph LR;
@@ -21,5 +22,5 @@ graph LR;
 	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTY5Nzc5OThdfQ==
+eyJoaXN0b3J5IjpbMjA3NzQ1NjcyOV19
 -->
