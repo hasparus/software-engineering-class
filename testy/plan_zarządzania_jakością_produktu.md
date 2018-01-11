@@ -12,7 +12,7 @@ Aby zapewnić jak najwyższą jakość oprogramowania zamierzamy uwzględnić na
 ## Przepływ pracy z kontrolą wersji
 
 * Zablokowany master. Merge możliwy jedynie poprzez **pull request**.
-* Aby **pull request** został zmergowany, muszą zos
+* Aby **pull request** został zmergowany, muszą zostać spełnione następujące dwa warunki:
 
 ```mermaid
 graph LR;
@@ -20,5 +20,5 @@ graph LR;
 	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1OTMzNTA3XX0=
+eyJoaXN0b3J5IjpbNjczODY3NzQyXX0=
 -->
