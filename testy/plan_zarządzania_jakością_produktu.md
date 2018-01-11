@@ -28,11 +28,8 @@ graph LR;
 	d#2[development]-->fix/cant-login;
 	feature/cool-stuff--finish feature-->d#4[development];
 	
-	id1(Start)-->id2(Stop)
-	style id1 fill:#f9f,stroke:#333,stroke-width:4px;
-	classDef className fill:#f9f,stroke:#333,stroke-width:4px;
-	class id2 className;
+	style d#1 fill: pink;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM3Njk4MDcwXX0=
+eyJoaXN0b3J5IjpbMTMwODk4ODk3MF19
 -->
