@@ -18,11 +18,12 @@ Aby zapewnić jak najwyższą jakość oprogramowania zamierzamy uwzględnić na
 
 ```mermaid
 graph LR;
-	development#1--start feature-->pretty-feature-branch;
-	development#--start feature-->cool-feature-branch;
-	pretty-feature-branch--finish feature-->development;
+	d#1[development]--start feature-->pretty-feature-branch;
+	d#1[development]--start feature-->cool-feature-branch;
+	pretty-feature-branch--finish feature-->d#2[development];
+	
 	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3OTc3NDM1OF19
+eyJoaXN0b3J5IjpbNzkyMTIzMTA2XX0=
 -->
