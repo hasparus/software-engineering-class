@@ -23,7 +23,7 @@ Tydzień 1: Rozpoczęcie pierwszej fazy beta testowania
 
 Tydzień 3: Zakończenie pierwszej fazy beta testowania
 
-Tydzień 3: Release ersji Beta 2 aplikacji
+Tydzień 3: Release wersji Beta 2 aplikacji
 
 Tydzień 3: Rozpoczęcie drugiej fazy beta testowania
 
@@ -139,3 +139,7 @@ Okres beta testowania powinien przynieść wiele danych pomocnych w stworzeniu p
 * Raport o błędach występujących w oprogramowaniu
 * Posumowanie sugestii dotyczących aplikacji
 * Raport podsumowujący cały projekt
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTAwNjIyMjQ1NF19
+-->
